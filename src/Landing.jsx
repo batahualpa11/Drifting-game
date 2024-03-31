@@ -79,16 +79,16 @@ export const Landing = () => {
             <div className="articles">
             <div className={controlStyle === "keyboard" ? "article selected" : "article"} onClick={() => 
               setControlStyle("keyboard")}>
-                <img src="./images/keyboard.png" alt="keyboard" />
+                <img src="./images/angelina.JPG" alt="keyboard" />
                 <div className="article_label">
-                  <p>Keyboard</p>
+                  <p>Angelina Stinks</p>
                 </div> 
               </div>
               <div className={controlStyle === "gamepad" ? "article selected" : "article"} onClick={() => 
               setControlStyle("gamepad")}>
-                <img src="./images/gamepad.png" alt="gamepad" />
+                <img src="./images/brian.HEIC" alt="gamepad" />
                 <div className="article_label">
-                  <p>Gamepad</p>
+                  <p>Brian</p>
                 </div>
               </div>
               <div className={controlStyle === "mouseKeyboard" ? "article selected" : "article"} onClick={() => 

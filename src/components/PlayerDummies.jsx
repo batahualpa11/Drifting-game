@@ -242,7 +242,7 @@ export const PlayerDummies = ( { player, userPlayer }) => {
 
         <PositionalAudio
           ref={driftPurpleSound}
-          url="./sounds/driftPurple.wav"
+          url="./sounds/angelina-woohoo.mp3"
           loop={false}
           distance={1000}
         />
@@ -260,7 +260,7 @@ export const PlayerDummies = ( { player, userPlayer }) => {
         />
         <PositionalAudio
           ref={turboSound}
-          url="./sounds/turbo.wav"
+          url="./sounds/angelina-ahh.mp3"
           loop={false}
           distance={1000}
         />
