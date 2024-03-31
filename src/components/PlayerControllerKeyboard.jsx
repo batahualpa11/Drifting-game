@@ -80,7 +80,7 @@ export const PlayerControllerKeyboard = ({
   const driftSound = useRef();
   const driftTwoSound = useRef();
   const driftOrangeSound = useRef();
-  const driftPurpleSound = useRef();
+  const angelinaSound = useRef();
   const driftBlueSound = useRef();
   const jumpSound = useRef();
   const landingSound = useRef();
@@ -658,7 +658,7 @@ export const PlayerControllerKeyboard = ({
 
         <PositionalAudio
           ref={driftPurpleSound}
-          url="./sounds/driftPurple.wav"
+          url="./sounds/angelina-woohoo.mp3"
           loop={false}
           distance={1000}
         />
@@ -676,7 +676,7 @@ export const PlayerControllerKeyboard = ({
         />
         <PositionalAudio
           ref={turboSound}
-          url="./sounds/turbo.wav"
+          url="./sounds/angelina-ahh.mp3"
           loop={false}
           distance={1000}
         />
